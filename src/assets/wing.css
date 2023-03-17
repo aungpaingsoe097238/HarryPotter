@@ -1,0 +1,15 @@
+.fly {
+  height: 200px;
+  transform: rotate(-20deg);
+  animation: flap-left 0.1s infinite linear;
+}
+
+@keyframes flap-left {
+  0% {
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+  100% {
+  }
+}

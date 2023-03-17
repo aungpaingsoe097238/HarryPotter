@@ -1,10 +1,11 @@
 import React from "react";
 import harry from "../assets/images/harry4.png";
+import Wing from "./Wing";
 
 const Hero = () => {
   return (
     <div className=" h-screen flex justify-center items-center relative">
-      <div className="absolute top-[20%] left-[10%]">
+      {/* <div className="absolute top-[20%] left-[10%]">
         <p className="font-harry text-7xl text-slate-700">Aung Paing Soe</p>
       </div>
       <div>
@@ -18,7 +19,8 @@ const Hero = () => {
           numquam, aliquam officia eaque ducimus debitis tempora adipisci,
           perspiciatis deleniti fugiat eum.
         </p>
-      </div>
+      </div> */}
+      <Wing/>
     </div>
   );
 };
