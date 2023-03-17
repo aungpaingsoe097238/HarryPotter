@@ -10,6 +10,9 @@ const Wing = () => {
     <div>
       <div className=" relative">
         <img src={GoldBall} className=" fly" alt="" />
+        <div className=" w-[100px] h-[60px] bg-white flex justify-center items-center absolute bottom-[25%] left-[30%] ">
+          <AiFillHtml5 className=" absolute text-8xl w-[70px] max-h-[70px] text-orange-500 rounded-full mb-2  " />
+        </div>
       </div>
     </div>
   );
