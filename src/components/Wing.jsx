@@ -1,17 +1,17 @@
 import React from "react";
-import WingLeft from "../assets/images/wing-left.png";
-import WingRight from "../assets/images/wing-right.png";
-import GoldBall from "../assets/images/gold-ball.png";
+import Html from "../assets/images/html.png"
 import "../assets/wing.css";
 import { AiFillHtml5 } from "react-icons/ai";
 
 const Wing = () => {
   return (
     <div>
-      <div className=" relative">
-        <img src={GoldBall} className=" fly" alt="" />
-        <div className=" w-[100px] h-[60px] bg-white flex justify-center items-center absolute bottom-[25%] left-[30%] ">
-          <AiFillHtml5 className=" absolute text-8xl w-[70px] max-h-[70px] text-orange-500 rounded-full mb-2  " />
+      <div className=" relative ">
+        <div className=" w-[100px] h-[2px] bg-gold rounded-full shadow-lg fly"></div>
+        <div className=" w-[80px] h-[1px] mx-auto bg-gold rounded-full shadow-lg fly"></div>
+        <div className=" w-[60px] h-[1px] mx-auto bg-gold rounded-full shadow-lg fly"></div>
+        <div className=" w-[30px] h-[30px] rounded-full shadow-lg absolute top-[-6px] left-[35%] ">
+          <img src={ Html } alt="" />
         </div>
       </div>
     </div>
