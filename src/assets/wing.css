@@ -2,11 +2,52 @@
   transform: rotate(-20deg);
   animation: fly 0.1s infinite linear;
 }
+
+.updown {
+  animation: updown 3s infinite linear;
+}
+
+.wing {
+  animation: wing 3s infinite linear;
+}
+
 @keyframes fly {
   0% {
   }
   50% {
     transform: rotate(20deg);
+  }
+  100% {
+  }
+}
+
+@keyframes updown {
+  0% {
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+  }
+}
+
+@keyframes wing {
+  0% {
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  60% {
+    transform: translateX(10px);
+  }
+  70% {
+    transform: translate(20px);
+  }
+  80% {
+    transform: translate(-10px);
+  }
+  90% {
+    transform: translateY(10px);
   }
   100% {
   }
