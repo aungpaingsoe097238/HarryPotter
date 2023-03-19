@@ -1,14 +1,7 @@
 .fly {
-  height: 200px;
   transform: rotate(-20deg);
   animation: fly 0.1s infinite linear;
 }
-
-.fly-wing {
-  position: absolute;
-  animation: fly-wing 5s linear 0s infinite;
-}
-
 @keyframes fly {
   0% {
   }
@@ -17,7 +10,4 @@
   }
   100% {
   }
-}
-
-@keyframes fly-wing {
 }

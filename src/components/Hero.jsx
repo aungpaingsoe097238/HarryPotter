@@ -4,13 +4,13 @@ import Wing from "./Wing";
 
 const Hero = () => {
   return (
-    <div className=" h-screen flex justify-center items-center relative">
-      <div>
+    <div className=" h-screen flex justify-center items-center">
+      {/* <div className=" relative ">
         <img src={harry} className=" h-[400px] w-full " alt="" />
-      </div>
-      <div className=" fly-wing ">
-        <Wing />
-      </div>
+        <div className="absolute top-2 "> */}
+          <Wing />
+        {/* </div>
+      </div> */}
     </div>
   );
 };
