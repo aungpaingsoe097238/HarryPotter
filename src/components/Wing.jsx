@@ -3,7 +3,7 @@ import Html from "../assets/images/html.png";
 import "../assets/wing.css";
 import WingS from "../assets/images/wing2.png";
 import Ball from "../assets/images/ball.png";
-import { AiOutlineHtml5 } from "react-icons/ai";
+import { FaReact } from "react-icons/fa";
 
 const Wing = () => {
   
@@ -15,7 +15,7 @@ const Wing = () => {
           <img src={ Ball } className=" h-[60px]" alt="" /> 
         </div> */}
         <div className=" flex justify-center items-center absolute bottom-[15%] left-[40%] rounded-full ">
-          <AiOutlineHtml5 className=" text-3xl text-gold" />
+          <FaReact className=" text-3xl text-gold" />
         </div>
       </div>
     </div>
