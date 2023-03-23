@@ -12,6 +12,7 @@ module.exports = {
         red: "#b7191c",
         gold: "#bf9532",
         primary: "#948959",
+        back: "#e5d3af"
       },
     },
   },

@@ -3,12 +3,11 @@ import "../assets/hero.css";
 import HeroImage from "./HeroImage";
 import HeroText from "./HeroText";
 import HeroTitle from "./HeroTitle";
-import world from "../assets/images/world2.png";
+import world from "../assets/images/world.png";
 
 const Hero = () => {
   return (
-    <div className="h-screen relative flex hero  overflow-hidden ">
-      <div className="circle bg-black50 "></div>
+    <div className="h-screen relative flex hero overflow-hidden bg-back ">
       <div className=" basis-1/3 ">
         <HeroTitle />
       </div>
